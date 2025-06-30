@@ -1,0 +1,1253 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/QT.exe"
+		},
+		{
+			"path" : "Debug/QT.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_property",
+			"include",
+			"find_package",
+			"find_dependency"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"build/Qt5-Target-debug.cmake",
+			"build/Qt5Targets.cmake",
+			"build/Qt5Config.cmake",
+			"build/freetype-Target-debug.cmake",
+			"build/freetypeTargets.cmake",
+			"build/freetype-config.cmake",
+			"D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"build/brotli-Target-debug.cmake",
+			"build/brotliTargets.cmake",
+			"build/brotli-config.cmake",
+			"build/PNG-Target-debug.cmake",
+			"build/PNGTargets.cmake",
+			"build/PNGConfig.cmake",
+			"build/opengl_system-Target-debug.cmake",
+			"build/opengl_systemTargets.cmake",
+			"build/opengl_system-config.cmake",
+			"build/JPEG-Target-debug.cmake",
+			"build/JPEGTargets.cmake",
+			"build/JPEGConfig.cmake",
+			"build/md4c-Target-debug.cmake",
+			"build/md4cTargets.cmake",
+			"build/md4c-config.cmake",
+			"build/PCRE2-Target-debug.cmake",
+			"build/PCRE2Targets.cmake",
+			"build/PCRE2Config.cmake",
+			"build/ZLIB-Target-debug.cmake",
+			"build/ZLIBTargets.cmake",
+			"build/ZLIBConfig.cmake",
+			"build/OpenSSLConfig.cmake",
+			"build/BZip2-Target-debug.cmake",
+			"build/BZip2Targets.cmake",
+			"build/BZip2Config.cmake",
+			"build/double-conversion-Target-debug.cmake",
+			"build/double-conversionTargets.cmake",
+			"build/double-conversion-config.cmake",
+			"build/zstd-Target-debug.cmake",
+			"build/zstdTargets.cmake",
+			"build/zstd-config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1430,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1408,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 958,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 936,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1666,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1607,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1548,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1489,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1371,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2374,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 19
+			},
+			{
+				"file" : 6,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 16,
+				"parent" : 21
+			},
+			{
+				"file" : 5,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 28,
+				"parent" : 23
+			},
+			{
+				"file" : 4,
+				"parent" : 24
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 38,
+				"parent" : 25
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 24,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 27
+			},
+			{
+				"file" : 10,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 16,
+				"parent" : 29
+			},
+			{
+				"file" : 9,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 24,
+				"parent" : 31
+			},
+			{
+				"file" : 8,
+				"parent" : 32
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 73,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 132,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 191,
+				"parent" : 33
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 24,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 37
+			},
+			{
+				"file" : 13,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 16,
+				"parent" : 39
+			},
+			{
+				"file" : 12,
+				"parent" : 40
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 24,
+				"parent" : 41
+			},
+			{
+				"file" : 11,
+				"parent" : 42
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 38,
+				"parent" : 43
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 45
+			},
+			{
+				"file" : 16,
+				"parent" : 46
+			},
+			{
+				"command" : 3,
+				"file" : 16,
+				"line" : 16,
+				"parent" : 47
+			},
+			{
+				"file" : 15,
+				"parent" : 48
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 24,
+				"parent" : 49
+			},
+			{
+				"file" : 14,
+				"parent" : 50
+			},
+			{
+				"command" : 2,
+				"file" : 14,
+				"line" : 15,
+				"parent" : 51
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 53
+			},
+			{
+				"file" : 19,
+				"parent" : 54
+			},
+			{
+				"command" : 3,
+				"file" : 19,
+				"line" : 16,
+				"parent" : 55
+			},
+			{
+				"file" : 18,
+				"parent" : 56
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 24,
+				"parent" : 57
+			},
+			{
+				"file" : 17,
+				"parent" : 58
+			},
+			{
+				"command" : 2,
+				"file" : 17,
+				"line" : 38,
+				"parent" : 59
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 61
+			},
+			{
+				"file" : 22,
+				"parent" : 62
+			},
+			{
+				"command" : 3,
+				"file" : 22,
+				"line" : 16,
+				"parent" : 63
+			},
+			{
+				"file" : 21,
+				"parent" : 64
+			},
+			{
+				"command" : 3,
+				"file" : 21,
+				"line" : 24,
+				"parent" : 65
+			},
+			{
+				"file" : 20,
+				"parent" : 66
+			},
+			{
+				"command" : 2,
+				"file" : 20,
+				"line" : 73,
+				"parent" : 67
+			},
+			{
+				"command" : 2,
+				"file" : 20,
+				"line" : 132,
+				"parent" : 67
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2551,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 2529,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 72
+			},
+			{
+				"file" : 25,
+				"parent" : 73
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 16,
+				"parent" : 74
+			},
+			{
+				"file" : 24,
+				"parent" : 75
+			},
+			{
+				"command" : 3,
+				"file" : 24,
+				"line" : 24,
+				"parent" : 76
+			},
+			{
+				"file" : 23,
+				"parent" : 77
+			},
+			{
+				"command" : 2,
+				"file" : 23,
+				"line" : 73,
+				"parent" : 78
+			},
+			{
+				"command" : 2,
+				"file" : 23,
+				"line" : 132,
+				"parent" : 78
+			},
+			{
+				"command" : 2,
+				"file" : 23,
+				"line" : 191,
+				"parent" : 78
+			},
+			{
+				"command" : 2,
+				"file" : 23,
+				"line" : 250,
+				"parent" : 78
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 83
+			},
+			{
+				"file" : 29,
+				"parent" : 84
+			},
+			{
+				"command" : 5,
+				"file" : 29,
+				"line" : 24,
+				"parent" : 85
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 86
+			},
+			{
+				"file" : 28,
+				"parent" : 87
+			},
+			{
+				"command" : 3,
+				"file" : 28,
+				"line" : 16,
+				"parent" : 88
+			},
+			{
+				"file" : 27,
+				"parent" : 89
+			},
+			{
+				"command" : 3,
+				"file" : 27,
+				"line" : 24,
+				"parent" : 90
+			},
+			{
+				"file" : 26,
+				"parent" : 91
+			},
+			{
+				"command" : 2,
+				"file" : 26,
+				"line" : 38,
+				"parent" : 92
+			},
+			{
+				"command" : 5,
+				"file" : 25,
+				"line" : 24,
+				"parent" : 74
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 94
+			},
+			{
+				"file" : 32,
+				"parent" : 95
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 16,
+				"parent" : 96
+			},
+			{
+				"file" : 31,
+				"parent" : 97
+			},
+			{
+				"command" : 3,
+				"file" : 31,
+				"line" : 24,
+				"parent" : 98
+			},
+			{
+				"file" : 30,
+				"parent" : 99
+			},
+			{
+				"command" : 2,
+				"file" : 30,
+				"line" : 38,
+				"parent" : 100
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 102
+			},
+			{
+				"file" : 35,
+				"parent" : 103
+			},
+			{
+				"command" : 3,
+				"file" : 35,
+				"line" : 16,
+				"parent" : 104
+			},
+			{
+				"file" : 34,
+				"parent" : 105
+			},
+			{
+				"command" : 3,
+				"file" : 34,
+				"line" : 24,
+				"parent" : 106
+			},
+			{
+				"file" : 33,
+				"parent" : 107
+			},
+			{
+				"command" : 2,
+				"file" : 33,
+				"line" : 38,
+				"parent" : 108
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 110
+			},
+			{
+				"file" : 38,
+				"parent" : 111
+			},
+			{
+				"command" : 3,
+				"file" : 38,
+				"line" : 16,
+				"parent" : 112
+			},
+			{
+				"file" : 37,
+				"parent" : 113
+			},
+			{
+				"command" : 3,
+				"file" : 37,
+				"line" : 24,
+				"parent" : 114
+			},
+			{
+				"file" : 36,
+				"parent" : 115
+			},
+			{
+				"command" : 2,
+				"file" : 36,
+				"line" : 73,
+				"parent" : 116
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/MP8 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++14 -MTd"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIBJPEG_STATIC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PCRE2_STATIC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_ACCESSIBILITY_SUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_EVENTDISPATCHER_SUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_FONTDATABASE_SUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_THEME_SUPPORT_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WINDOWSUIAUTOMATION_SUPPORT_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/QT/build/QT_autogen/include_Debug"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/bin/archdatadir/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtEventDispatcherSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtFontDatabaseSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtThemeSupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtAccessibilitySupport"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtWindowsUIAutomationSupport"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				8,
+				10,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "QT::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/MP8 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /Zi /Ob0 /Od /RTC1 -MTd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\freetfdd35eef06d56\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\bzip2827565812739f\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\brotl6d7426260b727\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\libpna37919b28b92d\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\zliba252c37263f92\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\libjp043311aae795c\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\md4c5671ffc7b79cd\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\pcre23012e7355d789\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\doubl939b7f123f641\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\zstdf9734e9ec0a3a\\p\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\bin\\archdatadir\\plugins\\platforms",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5Widgetsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "uxtheme.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\bin\\archdatadir\\plugins\\platforms\\qwindowsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "dwmapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "imm32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "oleaut32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "shell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "winspool.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "wtsapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5EventDispatcherSupportd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5FontDatabaseSupportd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "gdi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "ole32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "user32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5ThemeSupportd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5AccessibilitySupportd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5WindowsUIAutomationSupportd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5Guid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\freetfdd35eef06d56\\p\\lib\\freetype.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\brotl6d7426260b727\\p\\lib\\brotlienc.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\brotl6d7426260b727\\p\\lib\\brotlidec.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\brotl6d7426260b727\\p\\lib\\brotlicommon.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\libpna37919b28b92d\\p\\lib\\libpng16_staticd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\libjp043311aae795c\\p\\lib\\libjpeg.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 68,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\md4c5671ffc7b79cd\\p\\lib\\md4c-html.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 69,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\md4c5671ffc7b79cd\\p\\lib\\md4c.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 70,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\qt09bc3566bb965\\p\\lib\\Qt5Cored.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "version.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "netapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "userenv.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 71,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 79,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\pcre23012e7355d789\\p\\lib\\pcre2-posix-staticd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 80,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\pcre23012e7355d789\\p\\lib\\pcre2-32-staticd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 81,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\pcre23012e7355d789\\p\\lib\\pcre2-16-staticd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 82,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\pcre23012e7355d789\\p\\lib\\pcre2-8-staticd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 93,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\zliba252c37263f92\\p\\lib\\zlib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 101,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\bzip2827565812739f\\p\\lib\\bz2.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 109,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\doubl939b7f123f641\\p\\lib\\double-conversion.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 117,
+				"fragment" : "C:\\Users\\user\\.conan2\\p\\b\\zstdf9734e9ec0a3a\\p\\lib\\zstd_static.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "QT",
+	"nameOnDisk" : "QT.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				8,
+				10,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				6,
+				7,
+				9
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				12
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/QT_autogen/mocs_compilation_Debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "main.pro",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "main.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "BMP.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "images.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Histogram.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "scena.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "scena.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "view.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "view.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/QT_autogen/EWIEGA46WW/qrc_images.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/af838c119802cdfc95817fbe5f559baa/qrc_images.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D1F0EBF-FF81-399E-B119-5D591F5C04F2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>QT</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\QT\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QT.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/bin;C:/Users/user/.conan2/p/b/opens769fd176b006d/p/bin;C:/Users/user/.conan2/p/b/pcre23012e7355d789/p/bin;C:/Users/user/.conan2/p/b/doubl939b7f123f641/p/bin;C:/Users/user/.conan2/p/b/freetfdd35eef06d56/p/bin;C:/Users/user/.conan2/p/b/bzip2827565812739f/p/bin;C:/Users/user/.conan2/p/b/brotl6d7426260b727/p/bin;C:/Users/user/.conan2/p/b/libjp043311aae795c/p/bin;C:/Users/user/.conan2/p/b/libpna37919b28b92d/p/bin;C:/Users/user/.conan2/p/b/zliba252c37263f92/p/bin;C:/Users/user/.conan2/p/b/sqlite216284357a5b/p/bin;C:/Users/user/.conan2/p/b/libpq7b477c5efd65a/p/bin;C:/Users/user/.conan2/p/b/opena7a3b519efd52d/p/bin;C:/Users/user/.conan2/p/b/zstdf9734e9ec0a3a/p/bin;C:/Users/user/.conan2/p/b/md4c5671ffc7b79cd/p/bin;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\QT\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QT.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\QT\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QT.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\QT\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QT.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QT</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtWidgets" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtGui" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtCore" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/bin/archdatadir/mkspecs/win32-msvc" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtEventDispatcherSupport" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtFontDatabaseSupport" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtThemeSupport" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtAccessibilitySupport" /external:I "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtWindowsUIAutomationSupport"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;LIBJPEG_STATIC;QT_CORE_LIB;PCRE2_STATIC;QT_EVENTDISPATCHER_SUPPORT_LIB;QT_FONTDATABASE_SUPPORT_LIB;QT_THEME_SUPPORT_LIB;QT_ACCESSIBILITY_SUPPORT_LIB;QT_WINDOWSUIAUTOMATION_SUPPORT_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;LIBJPEG_STATIC;QT_CORE_LIB;PCRE2_STATIC;QT_EVENTDISPATCHER_SUPPORT_LIB;QT_FONTDATABASE_SUPPORT_LIB;QT_THEME_SUPPORT_LIB;QT_ACCESSIBILITY_SUPPORT_LIB;QT_WINDOWSUIAUTOMATION_SUPPORT_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_Debug;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtWidgets;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtGui;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtCore;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\bin\archdatadir\mkspecs\win32-msvc;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtEventDispatcherSupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtFontDatabaseSupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtThemeSupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtAccessibilitySupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtWindowsUIAutomationSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_Debug;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtWidgets;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtGui;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtCore;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\bin\archdatadir\mkspecs\win32-msvc;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtEventDispatcherSupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtFontDatabaseSupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtThemeSupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtAccessibilitySupport;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\include\QtWindowsUIAutomationSupport;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target QT</Message>
+      <Command>setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen D:/QT/build/CMakeFiles/QT_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5Widgetsd.lib;uxtheme.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\bin\archdatadir\plugins\platforms\qwindowsd.lib;dwmapi.lib;imm32.lib;oleaut32.lib;shell32.lib;shlwapi.lib;winspool.lib;wtsapi32.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5EventDispatcherSupportd.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5FontDatabaseSupportd.lib;advapi32.lib;gdi32.lib;ole32.lib;user32.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5ThemeSupportd.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5AccessibilitySupportd.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5WindowsUIAutomationSupportd.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5Guid.lib;C:\Users\user\.conan2\p\b\freetfdd35eef06d56\p\lib\freetype.lib;C:\Users\user\.conan2\p\b\brotl6d7426260b727\p\lib\brotlienc.lib;C:\Users\user\.conan2\p\b\brotl6d7426260b727\p\lib\brotlidec.lib;C:\Users\user\.conan2\p\b\brotl6d7426260b727\p\lib\brotlicommon.lib;C:\Users\user\.conan2\p\b\libpna37919b28b92d\p\lib\libpng16_staticd.lib;opengl32.lib;C:\Users\user\.conan2\p\b\libjp043311aae795c\p\lib\libjpeg.lib;C:\Users\user\.conan2\p\b\md4c5671ffc7b79cd\p\lib\md4c-html.lib;C:\Users\user\.conan2\p\b\md4c5671ffc7b79cd\p\lib\md4c.lib;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\Qt5Cored.lib;version.lib;winmm.lib;netapi32.lib;userenv.lib;ws2_32.lib;C:\Users\user\.conan2\p\b\pcre23012e7355d789\p\lib\pcre2-posix-staticd.lib;C:\Users\user\.conan2\p\b\pcre23012e7355d789\p\lib\pcre2-32-staticd.lib;C:\Users\user\.conan2\p\b\pcre23012e7355d789\p\lib\pcre2-16-staticd.lib;C:\Users\user\.conan2\p\b\pcre23012e7355d789\p\lib\pcre2-8-staticd.lib;C:\Users\user\.conan2\p\b\zliba252c37263f92\p\lib\zlib.lib;C:\Users\user\.conan2\p\b\bzip2827565812739f\p\lib\bz2.lib;C:\Users\user\.conan2\p\b\doubl939b7f123f641\p\lib\double-conversion.lib;C:\Users\user\.conan2\p\b\zstdf9734e9ec0a3a\p\lib\zstd_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/lib;C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/freetfdd35eef06d56/p/lib;C:/Users/user/.conan2/p/b/freetfdd35eef06d56/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/bzip2827565812739f/p/lib;C:/Users/user/.conan2/p/b/bzip2827565812739f/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/brotl6d7426260b727/p/lib;C:/Users/user/.conan2/p/b/brotl6d7426260b727/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/libpna37919b28b92d/p/lib;C:/Users/user/.conan2/p/b/libpna37919b28b92d/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/zliba252c37263f92/p/lib;C:/Users/user/.conan2/p/b/zliba252c37263f92/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/libjp043311aae795c/p/lib;C:/Users/user/.conan2/p/b/libjp043311aae795c/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/md4c5671ffc7b79cd/p/lib;C:/Users/user/.conan2/p/b/md4c5671ffc7b79cd/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/pcre23012e7355d789/p/lib;C:/Users/user/.conan2/p/b/pcre23012e7355d789/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/doubl939b7f123f641/p/lib;C:/Users/user/.conan2/p/b/doubl939b7f123f641/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/zstdf9734e9ec0a3a/p/lib;C:/Users/user/.conan2/p/b/zstdf9734e9ec0a3a/p/lib/$(Configuration);C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/bin/archdatadir/plugins/platforms;C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/bin/archdatadir/plugins/platforms/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/QT/build/Debug/QT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/QT/build/Debug/QT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target QT</Message>
+      <Command>setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen D:/QT/build/CMakeFiles/QT_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/QT/build/Release/QT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/QT/build/Release/QT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_MinSizeRel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target QT</Message>
+      <Command>setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen D:/QT/build/CMakeFiles/QT_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/QT/build/MinSizeRel/QT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/QT/build/MinSizeRel/QT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>8</ProcessorNumber>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\QT\build\QT_autogen\include_RelWithDebInfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target QT</Message>
+      <Command>setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autogen D:/QT/build/CMakeFiles/QT_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/QT/build/RelWithDebInfo/QT.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/QT/build/RelWithDebInfo/QT.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\QT\build\CMakeFiles\af838c119802cdfc95817fbe5f559baa\qrc_images.cpp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autorcc D:/QT/build/CMakeFiles/QT_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\QT\images.qrc;D:\QT\build\CMakeFiles\QT_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\QT\save.png;D:\QT\normalSize.png;D:\QT\fitToWindow.png;D:\QT\open.png;D:\QT\zoomIn.png;D:\QT\cancle_selection.png;D:\QT\zoomOut.png;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\..\..\..\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\QT\build\QT_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autorcc D:/QT/build/CMakeFiles/QT_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\QT\images.qrc;D:\QT\build\CMakeFiles\QT_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\QT\save.png;D:\QT\normalSize.png;D:\QT\fitToWindow.png;D:\QT\open.png;D:\QT\zoomIn.png;D:\QT\cancle_selection.png;D:\QT\zoomOut.png;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\..\..\..\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\QT\build\QT_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autorcc D:/QT/build/CMakeFiles/QT_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\QT\images.qrc;D:\QT\build\CMakeFiles\QT_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\QT\save.png;D:\QT\normalSize.png;D:\QT\fitToWindow.png;D:\QT\open.png;D:\QT\zoomIn.png;D:\QT\cancle_selection.png;D:\QT\zoomOut.png;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\..\..\..\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\QT\build\QT_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for images.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\QT\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E cmake_autorcc D:/QT/build/CMakeFiles/QT_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\QT\images.qrc;D:\QT\build\CMakeFiles\QT_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json;D:\QT\save.png;D:\QT\normalSize.png;D:\QT\fitToWindow.png;D:\QT\open.png;D:\QT\zoomIn.png;D:\QT\cancle_selection.png;D:\QT\zoomOut.png;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\..\..\..\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\QT\build\QT_autogen\EWIEGA46WW\qrc_images.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\QT\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/QT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/QT -BD:/QT/build --check-stamp-file D:/QT/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\.conan2\p\b\bzip2827565812739f\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\user\.conan2\p\b\freetfdd35eef06d56\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\user\.conan2\p\b\opena7a3b519efd52d\p\lib\cmake\conan-official-openal-soft-variables.cmake;C:\Users\user\.conan2\p\b\opens769fd176b006d\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Qml\conan_qt_qt5_qmlprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;D:\QT\build\BZip2-Target-debug.cmake;D:\QT\build\BZip2-debug-x86_64-data.cmake;D:\QT\build\BZip2Config.cmake;D:\QT\build\BZip2ConfigVersion.cmake;D:\QT\build\BZip2Targets.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;D:\QT\build\JPEG-Target-debug.cmake;D:\QT\build\JPEG-debug-x86_64-data.cmake;D:\QT\build\JPEGConfig.cmake;D:\QT\build\JPEGConfigVersion.cmake;D:\QT\build\JPEGTargets.cmake;D:\QT\build\OpenAL-Target-debug.cmake;D:\QT\build\OpenAL-debug-x86_64-data.cmake;D:\QT\build\OpenALConfig.cmake;D:\QT\build\OpenALConfigVersion.cmake;D:\QT\build\OpenALTargets.cmake;D:\QT\build\OpenSSL-Target-debug.cmake;D:\QT\build\OpenSSL-debug-x86_64-data.cmake;D:\QT\build\OpenSSLConfig.cmake;D:\QT\build\OpenSSLConfigVersion.cmake;D:\QT\build\OpenSSLTargets.cmake;D:\QT\build\PCRE2-Target-debug.cmake;D:\QT\build\PCRE2-debug-x86_64-data.cmake;D:\QT\build\PCRE2Config.cmake;D:\QT\build\PCRE2ConfigVersion.cmake;D:\QT\build\PCRE2Targets.cmake;D:\QT\build\PNG-Target-debug.cmake;D:\QT\build\PNG-debug-x86_64-data.cmake;D:\QT\build\PNGConfig.cmake;D:\QT\build\PNGConfigVersion.cmake;D:\QT\build\PNGTargets.cmake;D:\QT\build\PostgreSQL-Target-debug.cmake;D:\QT\build\PostgreSQL-debug-x86_64-data.cmake;D:\QT\build\PostgreSQLConfig.cmake;D:\QT\build\PostgreSQLConfigVersion.cmake;D:\QT\build\PostgreSQLTargets.cmake;D:\QT\build\Qt5-Target-debug.cmake;D:\QT\build\Qt5-debug-x86_64-data.cmake;D:\QT\build\Qt5Config.cmake;D:\QT\build\Qt5ConfigVersion.cmake;D:\QT\build\Qt5Targets.cmake;D:\QT\build\SQLite3-Target-debug.cmake;D:\QT\build\SQLite3-debug-x86_64-data.cmake;D:\QT\build\SQLite3Config.cmake;D:\QT\build\SQLite3ConfigVersion.cmake;D:\QT\build\SQLite3Targets.cmake;D:\QT\build\ZLIB-Target-debug.cmake;D:\QT\build\ZLIB-debug-x86_64-data.cmake;D:\QT\build\ZLIBConfig.cmake;D:\QT\build\ZLIBConfigVersion.cmake;D:\QT\build\ZLIBTargets.cmake;D:\QT\build\brotli-Target-debug.cmake;D:\QT\build\brotli-config-version.cmake;D:\QT\build\brotli-config.cmake;D:\QT\build\brotli-debug-x86_64-data.cmake;D:\QT\build\brotliTargets.cmake;D:\QT\build\cmakedeps_macros.cmake;D:\QT\build\conan_toolchain.cmake;D:\QT\build\double-conversion-Target-debug.cmake;D:\QT\build\double-conversion-config-version.cmake;D:\QT\build\double-conversion-config.cmake;D:\QT\build\double-conversion-debug-x86_64-data.cmake;D:\QT\build\double-conversionTargets.cmake;D:\QT\build\freetype-Target-debug.cmake;D:\QT\build\freetype-config-version.cmake;D:\QT\build\freetype-config.cmake;D:\QT\build\freetype-debug-x86_64-data.cmake;D:\QT\build\freetypeTargets.cmake;D:\QT\build\md4c-Target-debug.cmake;D:\QT\build\md4c-config-version.cmake;D:\QT\build\md4c-config.cmake;D:\QT\build\md4c-debug-x86_64-data.cmake;D:\QT\build\md4cTargets.cmake;D:\QT\build\opengl_system-Target-debug.cmake;D:\QT\build\opengl_system-config-version.cmake;D:\QT\build\opengl_system-config.cmake;D:\QT\build\opengl_system-debug-x86_64-data.cmake;D:\QT\build\opengl_systemTargets.cmake;D:\QT\build\zstd-Target-debug.cmake;D:\QT\build\zstd-config-version.cmake;D:\QT\build\zstd-config.cmake;D:\QT\build\zstd-debug-x86_64-data.cmake;D:\QT\build\zstdTargets.cmake;D:\QT\images.qrc;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\QT\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/QT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/QT -BD:/QT/build --check-stamp-file D:/QT/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\.conan2\p\b\bzip2827565812739f\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\user\.conan2\p\b\freetfdd35eef06d56\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\user\.conan2\p\b\opena7a3b519efd52d\p\lib\cmake\conan-official-openal-soft-variables.cmake;C:\Users\user\.conan2\p\b\opens769fd176b006d\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Qml\conan_qt_qt5_qmlprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;D:\QT\build\BZip2-Target-debug.cmake;D:\QT\build\BZip2-debug-x86_64-data.cmake;D:\QT\build\BZip2Config.cmake;D:\QT\build\BZip2ConfigVersion.cmake;D:\QT\build\BZip2Targets.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;D:\QT\build\JPEG-Target-debug.cmake;D:\QT\build\JPEG-debug-x86_64-data.cmake;D:\QT\build\JPEGConfig.cmake;D:\QT\build\JPEGConfigVersion.cmake;D:\QT\build\JPEGTargets.cmake;D:\QT\build\OpenAL-Target-debug.cmake;D:\QT\build\OpenAL-debug-x86_64-data.cmake;D:\QT\build\OpenALConfig.cmake;D:\QT\build\OpenALConfigVersion.cmake;D:\QT\build\OpenALTargets.cmake;D:\QT\build\OpenSSL-Target-debug.cmake;D:\QT\build\OpenSSL-debug-x86_64-data.cmake;D:\QT\build\OpenSSLConfig.cmake;D:\QT\build\OpenSSLConfigVersion.cmake;D:\QT\build\OpenSSLTargets.cmake;D:\QT\build\PCRE2-Target-debug.cmake;D:\QT\build\PCRE2-debug-x86_64-data.cmake;D:\QT\build\PCRE2Config.cmake;D:\QT\build\PCRE2ConfigVersion.cmake;D:\QT\build\PCRE2Targets.cmake;D:\QT\build\PNG-Target-debug.cmake;D:\QT\build\PNG-debug-x86_64-data.cmake;D:\QT\build\PNGConfig.cmake;D:\QT\build\PNGConfigVersion.cmake;D:\QT\build\PNGTargets.cmake;D:\QT\build\PostgreSQL-Target-debug.cmake;D:\QT\build\PostgreSQL-debug-x86_64-data.cmake;D:\QT\build\PostgreSQLConfig.cmake;D:\QT\build\PostgreSQLConfigVersion.cmake;D:\QT\build\PostgreSQLTargets.cmake;D:\QT\build\Qt5-Target-debug.cmake;D:\QT\build\Qt5-debug-x86_64-data.cmake;D:\QT\build\Qt5Config.cmake;D:\QT\build\Qt5ConfigVersion.cmake;D:\QT\build\Qt5Targets.cmake;D:\QT\build\SQLite3-Target-debug.cmake;D:\QT\build\SQLite3-debug-x86_64-data.cmake;D:\QT\build\SQLite3Config.cmake;D:\QT\build\SQLite3ConfigVersion.cmake;D:\QT\build\SQLite3Targets.cmake;D:\QT\build\ZLIB-Target-debug.cmake;D:\QT\build\ZLIB-debug-x86_64-data.cmake;D:\QT\build\ZLIBConfig.cmake;D:\QT\build\ZLIBConfigVersion.cmake;D:\QT\build\ZLIBTargets.cmake;D:\QT\build\brotli-Target-debug.cmake;D:\QT\build\brotli-config-version.cmake;D:\QT\build\brotli-config.cmake;D:\QT\build\brotli-debug-x86_64-data.cmake;D:\QT\build\brotliTargets.cmake;D:\QT\build\cmakedeps_macros.cmake;D:\QT\build\conan_toolchain.cmake;D:\QT\build\double-conversion-Target-debug.cmake;D:\QT\build\double-conversion-config-version.cmake;D:\QT\build\double-conversion-config.cmake;D:\QT\build\double-conversion-debug-x86_64-data.cmake;D:\QT\build\double-conversionTargets.cmake;D:\QT\build\freetype-Target-debug.cmake;D:\QT\build\freetype-config-version.cmake;D:\QT\build\freetype-config.cmake;D:\QT\build\freetype-debug-x86_64-data.cmake;D:\QT\build\freetypeTargets.cmake;D:\QT\build\md4c-Target-debug.cmake;D:\QT\build\md4c-config-version.cmake;D:\QT\build\md4c-config.cmake;D:\QT\build\md4c-debug-x86_64-data.cmake;D:\QT\build\md4cTargets.cmake;D:\QT\build\opengl_system-Target-debug.cmake;D:\QT\build\opengl_system-config-version.cmake;D:\QT\build\opengl_system-config.cmake;D:\QT\build\opengl_system-debug-x86_64-data.cmake;D:\QT\build\opengl_systemTargets.cmake;D:\QT\build\zstd-Target-debug.cmake;D:\QT\build\zstd-config-version.cmake;D:\QT\build\zstd-config.cmake;D:\QT\build\zstd-debug-x86_64-data.cmake;D:\QT\build\zstdTargets.cmake;D:\QT\images.qrc;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\QT\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/QT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/QT -BD:/QT/build --check-stamp-file D:/QT/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\.conan2\p\b\bzip2827565812739f\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\user\.conan2\p\b\freetfdd35eef06d56\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\user\.conan2\p\b\opena7a3b519efd52d\p\lib\cmake\conan-official-openal-soft-variables.cmake;C:\Users\user\.conan2\p\b\opens769fd176b006d\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Qml\conan_qt_qt5_qmlprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;D:\QT\build\BZip2-Target-debug.cmake;D:\QT\build\BZip2-debug-x86_64-data.cmake;D:\QT\build\BZip2Config.cmake;D:\QT\build\BZip2ConfigVersion.cmake;D:\QT\build\BZip2Targets.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;D:\QT\build\JPEG-Target-debug.cmake;D:\QT\build\JPEG-debug-x86_64-data.cmake;D:\QT\build\JPEGConfig.cmake;D:\QT\build\JPEGConfigVersion.cmake;D:\QT\build\JPEGTargets.cmake;D:\QT\build\OpenAL-Target-debug.cmake;D:\QT\build\OpenAL-debug-x86_64-data.cmake;D:\QT\build\OpenALConfig.cmake;D:\QT\build\OpenALConfigVersion.cmake;D:\QT\build\OpenALTargets.cmake;D:\QT\build\OpenSSL-Target-debug.cmake;D:\QT\build\OpenSSL-debug-x86_64-data.cmake;D:\QT\build\OpenSSLConfig.cmake;D:\QT\build\OpenSSLConfigVersion.cmake;D:\QT\build\OpenSSLTargets.cmake;D:\QT\build\PCRE2-Target-debug.cmake;D:\QT\build\PCRE2-debug-x86_64-data.cmake;D:\QT\build\PCRE2Config.cmake;D:\QT\build\PCRE2ConfigVersion.cmake;D:\QT\build\PCRE2Targets.cmake;D:\QT\build\PNG-Target-debug.cmake;D:\QT\build\PNG-debug-x86_64-data.cmake;D:\QT\build\PNGConfig.cmake;D:\QT\build\PNGConfigVersion.cmake;D:\QT\build\PNGTargets.cmake;D:\QT\build\PostgreSQL-Target-debug.cmake;D:\QT\build\PostgreSQL-debug-x86_64-data.cmake;D:\QT\build\PostgreSQLConfig.cmake;D:\QT\build\PostgreSQLConfigVersion.cmake;D:\QT\build\PostgreSQLTargets.cmake;D:\QT\build\Qt5-Target-debug.cmake;D:\QT\build\Qt5-debug-x86_64-data.cmake;D:\QT\build\Qt5Config.cmake;D:\QT\build\Qt5ConfigVersion.cmake;D:\QT\build\Qt5Targets.cmake;D:\QT\build\SQLite3-Target-debug.cmake;D:\QT\build\SQLite3-debug-x86_64-data.cmake;D:\QT\build\SQLite3Config.cmake;D:\QT\build\SQLite3ConfigVersion.cmake;D:\QT\build\SQLite3Targets.cmake;D:\QT\build\ZLIB-Target-debug.cmake;D:\QT\build\ZLIB-debug-x86_64-data.cmake;D:\QT\build\ZLIBConfig.cmake;D:\QT\build\ZLIBConfigVersion.cmake;D:\QT\build\ZLIBTargets.cmake;D:\QT\build\brotli-Target-debug.cmake;D:\QT\build\brotli-config-version.cmake;D:\QT\build\brotli-config.cmake;D:\QT\build\brotli-debug-x86_64-data.cmake;D:\QT\build\brotliTargets.cmake;D:\QT\build\cmakedeps_macros.cmake;D:\QT\build\conan_toolchain.cmake;D:\QT\build\double-conversion-Target-debug.cmake;D:\QT\build\double-conversion-config-version.cmake;D:\QT\build\double-conversion-config.cmake;D:\QT\build\double-conversion-debug-x86_64-data.cmake;D:\QT\build\double-conversionTargets.cmake;D:\QT\build\freetype-Target-debug.cmake;D:\QT\build\freetype-config-version.cmake;D:\QT\build\freetype-config.cmake;D:\QT\build\freetype-debug-x86_64-data.cmake;D:\QT\build\freetypeTargets.cmake;D:\QT\build\md4c-Target-debug.cmake;D:\QT\build\md4c-config-version.cmake;D:\QT\build\md4c-config.cmake;D:\QT\build\md4c-debug-x86_64-data.cmake;D:\QT\build\md4cTargets.cmake;D:\QT\build\opengl_system-Target-debug.cmake;D:\QT\build\opengl_system-config-version.cmake;D:\QT\build\opengl_system-config.cmake;D:\QT\build\opengl_system-debug-x86_64-data.cmake;D:\QT\build\opengl_systemTargets.cmake;D:\QT\build\zstd-Target-debug.cmake;D:\QT\build\zstd-config-version.cmake;D:\QT\build\zstd-config.cmake;D:\QT\build\zstd-debug-x86_64-data.cmake;D:\QT\build\zstdTargets.cmake;D:\QT\images.qrc;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\QT\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/QT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SD:/QT -BD:/QT/build --check-stamp-file D:/QT/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\.conan2\p\b\bzip2827565812739f\p\lib\cmake\conan-official-bzip2-variables.cmake;C:\Users\user\.conan2\p\b\freetfdd35eef06d56\p\lib\cmake\conan-official-freetype-variables.cmake;C:\Users\user\.conan2\p\b\opena7a3b519efd52d\p\lib\cmake\conan-official-openal-soft-variables.cmake;C:\Users\user\.conan2\p\b\opens769fd176b006d\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_core_extras.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Core\conan_qt_qt5_coreprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Gui\conan_qt_qt5_guiprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5LinguistTools\Qt5LinguistToolsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Qml\conan_qt_qt5_qmlprivate.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Users\user\.conan2\p\b\qt09bc3566bb965\p\lib\cmake\Qt5Widgets\conan_qt_qt5_widgetsprivate.cmake;D:\QT\build\BZip2-Target-debug.cmake;D:\QT\build\BZip2-debug-x86_64-data.cmake;D:\QT\build\BZip2Config.cmake;D:\QT\build\BZip2ConfigVersion.cmake;D:\QT\build\BZip2Targets.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeCXXCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeRCCompiler.cmake;D:\QT\build\CMakeFiles\3.29.5-msvc4\CMakeSystem.cmake;D:\QT\build\JPEG-Target-debug.cmake;D:\QT\build\JPEG-debug-x86_64-data.cmake;D:\QT\build\JPEGConfig.cmake;D:\QT\build\JPEGConfigVersion.cmake;D:\QT\build\JPEGTargets.cmake;D:\QT\build\OpenAL-Target-debug.cmake;D:\QT\build\OpenAL-debug-x86_64-data.cmake;D:\QT\build\OpenALConfig.cmake;D:\QT\build\OpenALConfigVersion.cmake;D:\QT\build\OpenALTargets.cmake;D:\QT\build\OpenSSL-Target-debug.cmake;D:\QT\build\OpenSSL-debug-x86_64-data.cmake;D:\QT\build\OpenSSLConfig.cmake;D:\QT\build\OpenSSLConfigVersion.cmake;D:\QT\build\OpenSSLTargets.cmake;D:\QT\build\PCRE2-Target-debug.cmake;D:\QT\build\PCRE2-debug-x86_64-data.cmake;D:\QT\build\PCRE2Config.cmake;D:\QT\build\PCRE2ConfigVersion.cmake;D:\QT\build\PCRE2Targets.cmake;D:\QT\build\PNG-Target-debug.cmake;D:\QT\build\PNG-debug-x86_64-data.cmake;D:\QT\build\PNGConfig.cmake;D:\QT\build\PNGConfigVersion.cmake;D:\QT\build\PNGTargets.cmake;D:\QT\build\PostgreSQL-Target-debug.cmake;D:\QT\build\PostgreSQL-debug-x86_64-data.cmake;D:\QT\build\PostgreSQLConfig.cmake;D:\QT\build\PostgreSQLConfigVersion.cmake;D:\QT\build\PostgreSQLTargets.cmake;D:\QT\build\Qt5-Target-debug.cmake;D:\QT\build\Qt5-debug-x86_64-data.cmake;D:\QT\build\Qt5Config.cmake;D:\QT\build\Qt5ConfigVersion.cmake;D:\QT\build\Qt5Targets.cmake;D:\QT\build\SQLite3-Target-debug.cmake;D:\QT\build\SQLite3-debug-x86_64-data.cmake;D:\QT\build\SQLite3Config.cmake;D:\QT\build\SQLite3ConfigVersion.cmake;D:\QT\build\SQLite3Targets.cmake;D:\QT\build\ZLIB-Target-debug.cmake;D:\QT\build\ZLIB-debug-x86_64-data.cmake;D:\QT\build\ZLIBConfig.cmake;D:\QT\build\ZLIBConfigVersion.cmake;D:\QT\build\ZLIBTargets.cmake;D:\QT\build\brotli-Target-debug.cmake;D:\QT\build\brotli-config-version.cmake;D:\QT\build\brotli-config.cmake;D:\QT\build\brotli-debug-x86_64-data.cmake;D:\QT\build\brotliTargets.cmake;D:\QT\build\cmakedeps_macros.cmake;D:\QT\build\conan_toolchain.cmake;D:\QT\build\double-conversion-Target-debug.cmake;D:\QT\build\double-conversion-config-version.cmake;D:\QT\build\double-conversion-config.cmake;D:\QT\build\double-conversion-debug-x86_64-data.cmake;D:\QT\build\double-conversionTargets.cmake;D:\QT\build\freetype-Target-debug.cmake;D:\QT\build\freetype-config-version.cmake;D:\QT\build\freetype-config.cmake;D:\QT\build\freetype-debug-x86_64-data.cmake;D:\QT\build\freetypeTargets.cmake;D:\QT\build\md4c-Target-debug.cmake;D:\QT\build\md4c-config-version.cmake;D:\QT\build\md4c-config.cmake;D:\QT\build\md4c-debug-x86_64-data.cmake;D:\QT\build\md4cTargets.cmake;D:\QT\build\opengl_system-Target-debug.cmake;D:\QT\build\opengl_system-config-version.cmake;D:\QT\build\opengl_system-config.cmake;D:\QT\build\opengl_system-debug-x86_64-data.cmake;D:\QT\build\opengl_systemTargets.cmake;D:\QT\build\zstd-Target-debug.cmake;D:\QT\build\zstd-config-version.cmake;D:\QT\build\zstd-config.cmake;D:\QT\build\zstd-debug-x86_64-data.cmake;D:\QT\build\zstdTargets.cmake;D:\QT\images.qrc;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;D:\vs\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\QT\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\QT\build\QT_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <None Include="D:\QT\main.pro">
+    </None>
+    <ClCompile Include="D:\QT\main.cpp" />
+    <ClInclude Include="D:\QT\main.h" />
+    <ClInclude Include="D:\QT\BMP.h" />
+    <None Include="D:\QT\images.qrc">
+    </None>
+    <ClInclude Include="D:\QT\Histogram.h" />
+    <ClInclude Include="D:\QT\scena.h" />
+    <ClCompile Include="D:\QT\scena.cpp" />
+    <ClInclude Include="D:\QT\view.h" />
+    <ClCompile Include="D:\QT\view.cpp" />
+    <ClCompile Include="D:\QT\build\QT_autogen\EWIEGA46WW\qrc_images.cpp" />
+    <ClCompile Include="D:\QT\build\QT_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\QT\build\QT_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\QT\build\QT_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\QT\build\ZERO_CHECK.vcxproj">
+      <Project>{6ADE37A7-9999-3056-9ECF-72B933AFFBB0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:/Users/user/.conan2/p/qte168ea79f59aa/s/qt5/qtbase/include/QtWidgets",
+                "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtWidgets",
+                "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtGui",
+                "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtCore",
+                "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/**",
+                "C:/Users/user/.conan2/p/**",
+                "C:/Users/user/.conan2/p/b/qt09bc3566bb965/p/include/QtQuick",
+                "C:/Users/user/.conan2/p/qte168ea79f59aa/s/qt5/qtdeclarative/include/QtQuick"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

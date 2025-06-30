@@ -1,0 +1,31 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build", // то есть путь к директории сборки: build
+    "cmake.configureArgs": [
+        "-DCMAKE_POLICY_DEFAULT_CMP0091=NEW", // указание флага сборки проекта для линковки с Conan, может быть решением соответствующего сообщения об ошибке
+        "-DBUILD_TESTS=ON", // Включение тестов для проекта с GoogleTest
+        "-DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake", // использование тулчейна conan
+      ],
+      "files.associations": {
+        "qapplication": "cpp",
+        "qmainwindow": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "deque": "cpp",
+        "iterator": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "random": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "utility": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
+      },
+      "C_Cpp.errorSquiggles": "disabled"
+}

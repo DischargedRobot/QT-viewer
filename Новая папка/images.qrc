@@ -1,0 +1,11 @@
+<RCC>
+<qresource>
+    <file>save.png</file>
+	<file>open.png</file>
+	<file>zoomIn.png</file>
+	<file>zoomOut.png</file>
+	<file>normalSize.png</file>
+	<file>fitToWindow.png</file>
+	<file>cancle_selection.png</file>
+</qresource>
+</RCC>
